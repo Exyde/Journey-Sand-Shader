@@ -7,3 +7,7 @@
  # Steps
  ## Diffuse Color
  ## Sand Normal
+ ## Rim Lighting
+ ## Ocean Specular
+ ## Glitter Reflection
+ ## Sand Ripples
