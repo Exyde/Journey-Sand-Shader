@@ -39,6 +39,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _GlitterTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -55,25 +59,42 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SandTex:
+        m_Texture: {fileID: 2800000, guid: 41278c6fd526d8f49bbba1349bc9061f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _GlitterThreshold: 0.537
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
+    - _OceanSpecularPower: 0
+    - _OceanSpecularStrength: 0
     - _Parallax: 0.02
+    - _SandStrength: 0.659
+    - _SandTex_ST: 0.167
+    - _SandText_ST: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _TerrainRimPower: 0.871
+    - _TerrainRimStrength: 0.903
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OceanSpecularColor: {r: 1, g: 0.5082709, b: 0, a: 1}
     - _SandColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 1}
+    - _TerrainColor: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 1}
+    - _TerrainRimColor: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 1}
   m_BuildTextureStacks: []
